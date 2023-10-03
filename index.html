@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Wheel of Fortune</title>
+</head>
+<body>
+    <div class="wheel-container">
+        <div class="wheel" id="wheel">
+            <img src="item1.jpg" alt="Áo" />
+            <img src="item2.jpg" alt="Cốc nước" />
+            <img src="item3.jpg" alt="Multi-tool" />
+            <img src="item4.jpg" alt="Ví đựng thẻ" />
+        </div>
+        <button onclick="spinWheel()">Spin</button>
+    </div>
+    <div class="item-count" id="itemCount">
+        <p>Áo: <span id="shirtCount">10</span></p>
+        <p>Cốc nước: <span id="cupCount">50</span></p>
+        <p>Multi-tool: <span id="toolCount">50</span></p>
+        <p>Ví đựng thẻ: <span id="walletCount">30</span></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
