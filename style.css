@@ -37,3 +37,12 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
+.item-count {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-count p {
+    margin: 5px 0;
+}
