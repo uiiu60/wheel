@@ -7,22 +7,20 @@
     <title>Wheel of Fortune</title>
 </head>
 <body>
-    <div class="container">
-        <div class="wheel-container">
-            <div class="wheel" id="wheel">
-                <div class="segment" style="--bg-color: #3498db;">Áo</div>
-                <div class="segment" style="--bg-color: #e74c3c;">Cốc nước</div>
-                <div class="segment" style="--bg-color: #2ecc71;">Multi-tool</div>
-                <div class="segment" style="--bg-color: #f39c12;">Ví đựng thẻ</div>
-            </div>
-            <button onclick="spinWheel()">Spin</button>
+    <div class="wheel-container">
+        <div class="wheel" id="wheel">
+            <div class="segment" style="--bg-color: #3498db;">Áo</div>
+            <div class="segment" style="--bg-color: #e74c3c;">Cốc nước</div>
+            <div class="segment" style="--bg-color: #2ecc71;">Multi-tool</div>
+            <div class="segment" style="--bg-color: #f39c12;">Ví đựng thẻ</div>
         </div>
-        <div class="item-count" id="itemCount">
-            <p>Áo: <span id="shirtCount">10</span></p>
-            <p>Cốc nước: <span id="cupCount">50</span></p>
-            <p>Multi-tool: <span id="toolCount">50</span></p>
-            <p>Ví đựng thẻ: <span id="walletCount">30</span></p>
-        </div>
+        <button onclick="spinWheel()">Spin</button>
+    </div>
+    <div class="item-count" id="itemCount">
+        <p>Áo: <span id="shirtCount">10</span></p>
+        <p>Cốc nước: <span id="cupCount">50</span></p>
+        <p>Multi-tool: <span id="toolCount">50</span></p>
+        <p>Ví đựng thẻ: <span id="walletCount">30</span></p>
     </div>
     
     <script src="script.js"></script>
