@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wheel-container {
+    text-align: center;
+}
+
+.wheel {
+    width: 300px;
+    height: 300px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.wheel:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 150px 150px 0;
+    border-color: #e74c3c transparent transparent transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
